@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { getIndex } from './path/to/your/module';
+import { getIndex } from '../externals/kraken';
 
 // Mocking the axios.get function
 jest.mock('axios');
